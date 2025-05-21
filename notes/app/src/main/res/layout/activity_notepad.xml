@@ -75,15 +75,6 @@
                 android:background="#CCCCCC" />
 
             <!-- Eraser Button -->
-            <ImageButton
-                android:id="@+id/button_eraser"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_margin="4dp"
-                android:background="@drawable/bg_toolbar_button"
-                android:padding="8dp"
-                android:src="@drawable/ic_eraser"
-                android:contentDescription="Eraser" />
 
         </LinearLayout>
 
