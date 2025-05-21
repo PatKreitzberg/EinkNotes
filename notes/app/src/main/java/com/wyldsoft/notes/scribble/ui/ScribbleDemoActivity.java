@@ -8,6 +8,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.wyldsoft.notes.NotesActivity;
 import com.wyldsoft.notes.R;
 import com.wyldsoft.notes.databinding.ActivitySribbleDemoBinding;
 
@@ -25,40 +26,9 @@ public class ScribbleDemoActivity extends AppCompatActivity {
         binding.setActivitySribble(this);
     }
 
-    public void button_scribble_touch_helper(View view) {
-        go(ScribbleTouchHelperDemoActivity.class);
-    }
-
-    public void button_surfaceview_stylus_scribble(View view) {
-        go(ScribbleTouchHelperDemoActivity.class);
-    }
-
-    public void button_webview_stylus_scribble(View view) {
-        go(ScribbleWebViewDemoActivity.class);
-    }
 
     public void button_notes(View view) {
-        go(ScribbleNotes.class);
-    }
-
-    public void button_move_erase_scribble(View view) {
-        go(ScribbleMoveEraserDemoActivity.class);
-    }
-
-    public void button_multiple_scribble(View view) {
-        go(ScribbleMultipleScribbleViewActivity.class);
-    }
-
-    public void button_pen_up_refresh(View view) {
-        go(ScribblePenUpRefreshDemoActivity.class);
-    }
-
-    public void button_epd_controller(View view) {
-        go(ScribbleEpdControllerDemoActivity.class);
-    }
-
-    public void gotoScribbleFingerTouchDemo(View view) {
-        go(ScribbleFingerTouchDemoActivity.class);
+        go(NotesActivity.class);
     }
 
     private void go(Class<?> activityClass) {
