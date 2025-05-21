@@ -3,7 +3,7 @@
     package="com.wyldsoft.notes">
 
     <application
-        android:name=".DemoApplication"
+        android:name=".NotesApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -22,7 +22,6 @@
         </activity>
 
         <activity android:name=".ui.PenDemoActivity"/>
-        <activity android:name=".scribble.ui.ScribbleDemoActivity"/>
 
     </application>
 
